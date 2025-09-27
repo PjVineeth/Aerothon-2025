@@ -60,7 +60,7 @@ export function ImportantDatesSection() {
                 <Card className={`border border-border-primary/50 hover:border-${event.gradient} bg-card/50 backdrop-blur transition-colors duration-300`}>
                   <CardHeader>
                     <div className="flex items-start space-x-4">
-                      <div className={`w-12 h-12 rounded-lg bg-gradient-to-r ${event.gradient} p-0.5 flex-shrink-0`}>
+                      <div className={`w-12 h-12 rounded-lg bg-gradient-to-r ${event.gradient} p-0.5 flex-shrink-0 hidden sm:block`}>
                         <div className="w-full h-full bg-card rounded-md flex items-center justify-center">
                           <event.icon className="w-6 h-6 text-foreground" />
                         </div>

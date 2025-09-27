@@ -7,7 +7,7 @@ export function HeroSection() {
   return (
     <section id="home" className="relative overflow-hidden bg-background min-h-screen">
       {/* Background pattern */}
-      <div className="absolute inset-0 -mt-8">
+      <div className="absolute inset-0 -mt-8 hidden sm:block">
         <DotGrid
           dotSize={1}
           gap={10}
@@ -31,7 +31,7 @@ export function HeroSection() {
             AEROTHON 2025
           </h1>
 
-          <h4 className="block text-[24px] leading-10 tracking-tight mt-2">Innovating the Future of Aerospace</h4>
+          <h4 className="block text-[20px] sm:text-[24px] leading-10 tracking-tight mt-2">Innovating the Future of Aerospace</h4>
 
 
           <p className="mt-6 text-md leading-8 text-muted-foreground max-w-2xl mx-auto text-pretty">
@@ -72,9 +72,9 @@ export function HeroSection() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 animate-bounce mb-8">
-        <div className="w-6 h-10 border-2 border-[#f0632d] dark:border-[#f92b1c] rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-[#f0632d] dark:bg-[#f92b1c] rounded-full mt-2 animate-pulse"></div>
+      <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 animate-bounce mb-8 hidden sm:block">
+        <div className="w-6 h-10 border-2 border-[#ed4b0b] dark:border-[#e24a3f] rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-[#ed4b0b] dark:bg-[#e24a3f] rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
 

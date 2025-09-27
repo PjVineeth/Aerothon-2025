@@ -22,7 +22,7 @@ export function ProblemStatementsSection() {
             <CardHeader>
               <div className="flex items-start justify-between">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 p-0.5">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 p-0.5 hidden sm:block">
                     <div className="w-full h-full bg-card rounded-md flex items-center justify-center">
                       <Eye className="w-6 h-6 text-foreground" />
                     </div>
@@ -68,7 +68,7 @@ export function ProblemStatementsSection() {
                         <li>Display measurements overlaid on video stream</li>
                       </ul>
                     </div>
-                  </AccordionContent>
+                  </AccordionContent> 
                 </AccordionItem>
                 <AccordionItem value="output-1">
                   <AccordionTrigger>Expected Output</AccordionTrigger>
@@ -90,7 +90,7 @@ export function ProblemStatementsSection() {
             <CardHeader>
               <div className="flex items-start justify-between">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 p-0.5">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 p-0.5 hidden sm:block">
                     <div className="w-full h-full bg-card rounded-md flex items-center justify-center">
                       <Brain className="w-6 h-6 text-foreground" />
                     </div>
