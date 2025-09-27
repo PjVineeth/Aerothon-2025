@@ -1,12 +1,25 @@
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Calendar, Trophy } from "lucide-react"
+import DotGrid from "./dotgrid"
 
 export function HeroSection() {
   return (
     <section id="home" className="relative overflow-hidden bg-background min-h-screen">
       {/* Background pattern */}
-      <div className="absolute inset-0 bg-grid-pattern opacity-5" />
+      <div className="absolute inset-0 -mt-8">
+        <DotGrid
+          dotSize={1}
+          gap={10}
+          baseColor="#e24d35"
+          activeColor="#5227FF"
+          proximity={90}
+          shockRadius={500}
+          shockStrength={5}
+          resistance={750}
+          returnDuration={1}
+        />
+      </div>
 
       <div className="relative mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 flex items-center justify-center min-h-screen">
         <div className="mx-auto max-w-4xl text-center">
