@@ -13,11 +13,11 @@ export function HeroSection() {
           gap={10}
           baseColor="#e24d35"
           activeColor="#5227FF"
-          proximity={90}
-          shockRadius={500}
-          shockStrength={5}
-          resistance={750}
-          returnDuration={1}
+          proximity={60}
+          shockRadius={100}
+          shockStrength={4}
+          resistance={200}
+          returnDuration={3}
         />
       </div>
 
@@ -68,6 +68,13 @@ export function HeroSection() {
               <span>October 30-31, 2025</span>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Scroll indicator */}
+      <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 animate-bounce mb-8">
+        <div className="w-6 h-10 border-2 border-[#f0632d] dark:border-[#f92b1c] rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-[#f0632d] dark:bg-[#f92b1c] rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
 
