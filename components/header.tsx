@@ -48,7 +48,7 @@ export function Header() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:space-x-4">
           <ThemeToggle />
           <Button asChild>
-            <a href="#registration">Register Now</a>
+            <a href="https://forms.gle/your-registration-link" target="_blank" rel="noopener noreferrer">Register Now</a>
           </Button>
         </div>
       </nav>
@@ -69,7 +69,7 @@ export function Header() {
             ))}
             <div className="px-3 py-3">
               <Button asChild className="w-full">
-                <a href="#registration" onClick={() => setIsMenuOpen(false)}>
+                <a href="https://forms.gle/your-registration-link" target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>
                   Register Now
                 </a>
               </Button>

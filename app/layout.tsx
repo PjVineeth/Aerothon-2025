@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     "A flagship national-level hackathon by HAL in collaboration with IIIT Dharwad. Join the brightest minds to tackle real-world aerospace challenges.",
   generator: "Aerothan-2025.app",
   keywords: "hackathon, aerospace, HAL, IIIT Dharwad, innovation, technology, aviation",
+  icons: {
+    icon: '/favicon.ico',
+  }
 }
 
 export default function RootLayout({

@@ -90,13 +90,17 @@ export function RegistrationSection() {
           {/* CTA Buttons */}
           <div className="text-center mb-16">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button size="lg" className="text-base px-8 py-3">
-                Register Your Team
-                <ArrowRight className="ml-2 h-4 w-4" />
+              <Button size="lg" className="text-base px-8 py-3" asChild>
+                <a href="https://forms.gle/your-registration-link" target="_blank" rel="noopener noreferrer">
+                  Register Your Team
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
               </Button>
-              <Button variant="outline" size="lg" className="text-base px-8 py-3 bg-transparent">
-                <Download className="mr-2 h-4 w-4" />
-                Download Registration Guide
+              <Button variant="outline" size="lg" className="text-base px-8 py-3 bg-transparent" asChild>
+                <a href="https://drive.google.com/your-guide-link" target="_blank" rel="noopener noreferrer">
+                  <Download className="mr-2 h-4 w-4" />
+                  Download Registration Guide
+                </a>
               </Button>
             </div>
           </div>

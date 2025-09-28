@@ -42,7 +42,7 @@ export function HeroSection() {
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" className="text-base px-8 py-3" asChild>
-              <a href="#registration">
+              <a href="https://forms.gle/your-registration-link" target="_blank" rel="noopener noreferrer">
                 Register Now
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
