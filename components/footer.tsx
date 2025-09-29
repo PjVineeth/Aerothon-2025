@@ -56,10 +56,10 @@ export function Footer() {
                 <Mail className="h-4 w-4" />
                 <span>hackevents@iiitdwd.ac.in</span>
               </li>
-              <li className="flex items-center space-x-2">
+              {/* <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
                 <span>+91 XXXXX XXXXX</span>
-              </li>
+              </li> */}
               <li className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
                 <span>IIIT Dharwad, Karnataka</span>
