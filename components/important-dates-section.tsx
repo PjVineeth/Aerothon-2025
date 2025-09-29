@@ -17,7 +17,13 @@ export function ImportantDatesSection() {
       date: "October 13, 2025",
       day: "Monday",
       title: "Registration & Submission Deadline",
-      description: "Team Registration, Presentation (PPT), Technical Report, Solution Video (Methodology & Demo)",
+      description: (
+        <>
+          Team Registration, <a href="#" className="underline underline-offset-1 hover:text-primary">Presentation (PPT)</a>, <a href="#" className="underline underline-offset-1 hover:text-primary">Technical Report</a>.
+          <br />
+          The team leader has to register the team by submitting the ppt, report, recorded video of the presentation.
+        </>
+      ),
       icon: Users,
       status: "upcoming",
       gradient: "from-blue-500 to-cyan-500",
@@ -26,7 +32,7 @@ export function ImportantDatesSection() {
       date: "October 20, 2025",
       day: "Monday",
       title: "Shortlisted Team Announcement",
-      description: "Selected teams notified for final hackathon",
+      description: "Selected teams notified for final hackathon (Equal number of teams will be shortlisted from each problem statement)",
       icon: Clock,
       status: "upcoming",
       gradient: "from-green-500 to-teal-500",
@@ -35,7 +41,7 @@ export function ImportantDatesSection() {
       date: "October 30-31, 2025",
       day: "Thursday-Friday",
       title: "AEROTHON 2025 - 24 Hour Hackathon",
-      description: "24 Hours Continuous • Venue: To be announced",
+      description: "24 Hours Continuous • Venue: IIIT Dharwad, Karnataka",
       icon: Trophy,
       status: "upcoming",
       gradient: "from-purple-500 to-pink-500",
@@ -97,7 +103,7 @@ export function ImportantDatesSection() {
                 <div>
                   <h4 className="font-semibold mb-2">Team Formation</h4>
                   <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
-                    <li>Team size: 2-4 members</li>
+                    <li>Team size: 4 members</li>
                     <li>Diversity encouraged (different disciplines)</li>
                     <li>Student eligibility criteria</li>
                   </ul>

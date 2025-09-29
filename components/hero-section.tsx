@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Calendar, Trophy } from "lucide-react"
+import { ArrowRight, Calendar, Trophy, MapPin } from "lucide-react"
 import DotGrid from "./dotgrid"
 
 export function HeroSection() {
@@ -42,7 +42,7 @@ export function HeroSection() {
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" className="text-base px-8 py-3" asChild>
-              <a href="https://forms.gle/your-registration-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://forms.gle/K4jtiE5URNVbxvbCA" target="_blank" rel="noopener noreferrer">
                 Register Now
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
@@ -58,14 +58,18 @@ export function HeroSection() {
             </Button> */}
           </div>
 
-          <div className="mt-16 flex flex-col sm:flex-row items-center justify-center gap-8 text-sm text-muted-foreground">
-            <div className="flex items-center">
+          <div className="mt-16 flex flex-col sm:flex-row items-center justify-center gap-8 text-md text-muted-foreground">
+            <div className="flex items-center font-bold">
               <Trophy className="mr-2 h-5 w-5 text-primary" />
               <span>Prizes worth ₹2,00,000+</span>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center font-bold">
               <Calendar className="mr-2 h-5 w-5 text-primary" />
               <span>October 30-31, 2025</span>
+            </div>
+            <div className="flex items-center font-bold">
+              <MapPin className="mr-2 h-5 w-5 text-primary" />
+              <span>IIIT Dharwad, Karnataka</span>
             </div>
           </div>
         </div>

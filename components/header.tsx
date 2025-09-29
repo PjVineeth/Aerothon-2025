@@ -39,7 +39,7 @@ export function Header() {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold leading-6 text-foreground hover:text-primary transition-colors"
+              className="text-sm font-semibold leading-6 text-foreground hover:text-orange-500 transition-colors"
             >
               {item.name}
             </a>
@@ -48,7 +48,7 @@ export function Header() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:space-x-4">
           <ThemeToggle />
           <Button asChild>
-            <a href="https://forms.gle/your-registration-link" target="_blank" rel="noopener noreferrer">Register Now</a>
+            <a href="https://forms.gle/K4jtiE5URNVbxvbCA" target="_blank" rel="noopener noreferrer">Register Now</a>
           </Button>
         </div>
       </nav>
@@ -62,14 +62,14 @@ export function Header() {
                 key={item.name}
                 onClick={() => setIsMenuOpen(false)}
                 href={item.href}
-                className="block px-3 py-3 text-base text-foreground hover:text-primary transition-colors"
+                className="block px-3 py-3 text-base text-foreground hover:text-orange-500 transition-colors"
               >
                 {item.name}
               </a>
             ))}
             <div className="px-3 py-3">
               <Button asChild className="w-full">
-                <a href="https://forms.gle/your-registration-link" target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>
+                <a href="https://forms.gle/K4jtiE5URNVbxvbCA" target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>
                   Register Now
                 </a>
               </Button>

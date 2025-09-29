@@ -7,7 +7,7 @@ export function RegistrationSection() {
   const steps = [
     {
       title: "Team Formation",
-      description: "Form your team of 2-4 members with diverse skills and backgrounds",
+      description: "Form your team of 4 members with diverse skills and backgrounds",
       gradient: "from-orange-500 to-red-500",
     },
     {
@@ -31,7 +31,7 @@ export function RegistrationSection() {
     {
       question: "What are the team formation guidelines?",
       answer:
-        "Teams should consist of 2-4 members. We encourage diversity in skills and academic backgrounds. All team members must be current students.",
+        "Teams should consist of 4 members. We encourage diversity in skills and academic backgrounds. All team members must be current students.",
     },
     {
       question: "What are the eligibility criteria?",
@@ -46,7 +46,7 @@ export function RegistrationSection() {
     {
       question: "How does the submission process work?",
       answer:
-        "Submit your initial presentation (PPT), technical report, and solution video by October 13, 2025. Detailed submission guidelines will be provided upon registration.",
+        "Submit your initial presentation (PPT), technical report, and recorded presentation by October 13, 2025. Detailed submission guidelines will be provided upon registration.",
     },
     {
       question: "What are the evaluation criteria?",
@@ -91,7 +91,7 @@ export function RegistrationSection() {
           <div className="text-center mb-16">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button size="lg" className="text-base px-8 py-3" asChild>
-                <a href="https://forms.gle/your-registration-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://forms.gle/K4jtiE5URNVbxvbCA" target="_blank" rel="noopener noreferrer">
                   Register Your Team
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
@@ -117,7 +117,7 @@ export function RegistrationSection() {
                   <Mail className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-sm text-muted-foreground">aerothon2025@iiitdwd.ac.in</p>
+                    <p className="text-sm text-muted-foreground">hackevents@iiitdwd.ac.in</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
