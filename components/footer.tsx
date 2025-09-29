@@ -1,4 +1,4 @@
-import { Rocket, Mail, Phone, MapPin } from "lucide-react"
+import { Mail, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -73,7 +73,19 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               © 2025 AEROTHON. Organized by HAL in collaboration with IIIT Dharwad.
             </p>
-            <p className="text-sm text-muted-foreground mt-2 md:mt-0">Built with innovation and precision.</p>
+            <p className="text-sm text-muted-foreground mt-2 md:mt-0">
+              Designed & Developed by
+              {" "}
+              <a
+                className="font-bold hover:text-primary transition-colors"
+                href="https://www.linkedin.com/in/pj-vineeth-kumar-88610927b/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pj Vineeth Kumar
+              </a>
+              .
+            </p>
           </div>
         </div>
       </div>
