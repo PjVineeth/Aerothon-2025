@@ -46,7 +46,7 @@ export function RegistrationSection() {
     {
       question: "How does the submission process work?",
       answer:
-        "Submit your initial presentation (PPT), technical report, and recorded presentation by October 13, 2025. Detailed submission guidelines will be provided upon registration.",
+        "Submit your initial presentation (PPT), technical report, and recorded presentation by December 15, 2025. Detailed submission guidelines will be provided upon registration.",
     },
     {
       question: "What are the evaluation criteria?",
@@ -63,7 +63,7 @@ export function RegistrationSection() {
             Join the Innovation Revolution
           </h2>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            Register now to secure your spot in AEROTHON 2025
+            Register now to secure your spot in AEROTHON 2026
           </p>
         </div>
 
@@ -142,7 +142,7 @@ export function RegistrationSection() {
           <Card className="border border-border-primary/50 hover:border-green-500-to-teal-500 bg-card/50 backdrop-blur transition-colors duration-300">
             <CardHeader>
               <CardTitle className="text-xl">Frequently Asked Questions</CardTitle>
-              <CardDescription>Find answers to common questions about AEROTHON 2025</CardDescription>
+              <CardDescription>Find answers to common questions about AEROTHON 2026</CardDescription>
             </CardHeader>
             <CardContent>
               <Accordion type="single" collapsible className="w-full">

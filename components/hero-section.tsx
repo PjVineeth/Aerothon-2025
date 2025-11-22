@@ -28,7 +28,7 @@ export function HeroSection() {
           </Badge>
 
           <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl text-balance bg-clip-text text-transparent bg-[url('https://www.apple.com/careers/images/fy21/apple_jobs_gradient-final_Apple_Jobs_Gradients_Warm/desktop@2x.png')] [-webkit-text-fill-color:transparent] [-webkit-box-decoration-break:clone] [background-size:100%_100%]">
-            AEROTHON 2025
+            AEROTHON 2026
           </h1>
 
           <h4 className="block text-[20px] sm:text-[24px] leading-10 tracking-tight mt-2">Innovating the Future of Aerospace</h4>
@@ -65,7 +65,7 @@ export function HeroSection() {
             </div>
             <div className="flex items-center font-bold">
               <Calendar className="mr-2 h-5 w-5 text-primary" />
-              <span>October 30-31, 2025</span>
+              <span>January 9-10, 2026</span>
             </div>
             <div className="flex items-center font-bold">
               <MapPin className="mr-2 h-5 w-5 text-primary" />

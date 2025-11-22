@@ -5,21 +5,21 @@ import { Calendar, Clock, Users, Trophy } from "lucide-react"
 export function ImportantDatesSection() {
   const timeline = [
     {
-      date: "September 29, 2025",
+      date: "November 24, 2025",
       day: "Monday",
-      title: "Hackathon Announcement",
-      description: "Official launch and problem statement release",
+      title: "Hackathon Announcement & Registration Opens",
+      description: "Official launch and problem statement release and registration opens",
       icon: Calendar,
       status: "completed",
       gradient: "from-orange-500 to-red-500",
     },
     {
-      date: "October 13, 2025",
+      date: "December 15, 2025",
       day: "Monday",
-      title: "Registration & Submission Deadline",
+      title: "Last Date for Registration & Submission",
       description: (
         <>
-          Team Registration, <a href="#" className="underline underline-offset-1 hover:text-primary">Presentation (PPT)</a>, <a href="#" className="underline underline-offset-1 hover:text-primary">Technical Report</a>.
+          Last Date for Team Registration, <a href="#" className="underline underline-offset-1 hover:text-primary">Presentation (PPT)</a>, <a href="#" className="underline underline-offset-1 hover:text-primary">Technical Report</a>.
           <br />
           The team leader has to register the team by submitting the ppt, report, recorded video of the presentation.
         </>
@@ -29,8 +29,8 @@ export function ImportantDatesSection() {
       gradient: "from-blue-500 to-cyan-500",
     },
     {
-      date: "October 20, 2025",
-      day: "Monday",
+      date: "December 25, 2025",
+      day: "Thursday",
       title: "Shortlisted Team Announcement",
       description: "Selected teams notified for final hackathon (Equal number of teams will be shortlisted from each problem statement)",
       icon: Clock,
@@ -38,9 +38,9 @@ export function ImportantDatesSection() {
       gradient: "from-green-500 to-teal-500",
     },
     {
-      date: "October 30-31, 2025",
-      day: "Thursday-Friday",
-      title: "AEROTHON 2025 - 24 Hour Hackathon",
+      date: "January 9-10, 2026",
+      day: "Friday-Saturday",
+      title: "AEROTHON 2026 - 24 Hour Hackathon",
       description: "24 Hours Continuous • Venue: IIIT Dharwad, Karnataka",
       icon: Trophy,
       status: "upcoming",
@@ -53,7 +53,7 @@ export function ImportantDatesSection() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Mark Your Calendar</h2>
-          <p className="mt-6 text-lg leading-8 text-muted-foreground">Key dates and milestones for AEROTHON 2025</p>
+          <p className="mt-6 text-lg leading-8 text-muted-foreground">Key dates and milestones for AEROTHON 2026</p>
         </div>
 
         <div className="mx-auto mt-16 max-w-4xl">

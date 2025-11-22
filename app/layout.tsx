@@ -9,10 +9,10 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "AEROTHON 2025 - Innovating the Future of Aerospace",
+  title: "AEROTHON 2026 - Innovating the Future of Aerospace",
   description:
     "A flagship national-level hackathon by HAL in collaboration with IIIT Dharwad. Join the brightest minds to tackle real-world aerospace challenges.",
-  generator: "Aerothan-2025.app",
+  generator: "Aerothan-2026.app",
   keywords: "hackathon, aerospace, HAL, IIIT Dharwad, innovation, technology, aviation",
   icons: {
     icon: '/favicon.ico',

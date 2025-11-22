@@ -8,7 +8,7 @@ export function Footer() {
           {/* Logo and Description */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <span className="font-bold text-xl">AEROTHON 2025</span>
+              <span className="font-bold text-xl">AEROTHON 2026</span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
               A flagship national-level hackathon by HAL in collaboration with IIIT Dharwad. Innovating the future of
@@ -17,7 +17,7 @@ export function Footer() {
             <div className="flex items-center space-x-4 text-sm text-muted-foreground">
               <span>HAL × IIIT Dharwad</span>
               <span>•</span>
-              <span>October 30-31, 2025</span>
+              <span>January 9-10, 2026</span>
             </div>
           </div>
 
@@ -71,7 +71,7 @@ export function Footer() {
         <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © 2025 AEROTHON. Organized by HAL in collaboration with IIIT Dharwad.
+              © 2026 AEROTHON. Organized by HAL in collaboration with IIIT Dharwad.
             </p>
             <p className="text-sm text-muted-foreground mt-2 md:mt-0">
               Designed & Developed by

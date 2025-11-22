@@ -26,7 +26,7 @@ function ComingSoon() {
                     </Badge>
 
                     <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl text-balance bg-clip-text text-transparent bg-[url('https://www.apple.com/careers/images/fy21/apple_jobs_gradient-final_Apple_Jobs_Gradients_Warm/desktop@2x.png')] [-webkit-text-fill-color:transparent] [-webkit-box-decoration-break:clone] [background-size:100%_100%]">
-                        AEROTHON 2025
+                        AEROTHON 2026
                     </h1>
 
                     <h4 className="block text-[20px] sm:text-[24px] leading-10 tracking-tight mt-2">Coming Soon</h4>

@@ -21,7 +21,7 @@ export function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#home" className="-m-1.5 p-1.5 flex items-center space-x-2">
-            <span className="font-bold text-xl">AEROTHON 2025</span>
+            <span className="font-bold text-xl">AEROTHON 2026</span>
           </a>
         </div>
         <div className="flex lg:hidden">

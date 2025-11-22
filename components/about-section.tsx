@@ -37,7 +37,7 @@ export function AboutSection() {
             Empowering Innovation in Aerospace
           </h2>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            AEROTHON 2025 is more than a competition—it is a movement to empower students to think boldly, innovate
+            AEROTHON 2026 is more than a competition—it is a movement to empower students to think boldly, innovate
             responsibly, and contribute to shaping the future of aerospace and technology.
           </p>
         </div>
