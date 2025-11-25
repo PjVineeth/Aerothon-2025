@@ -96,12 +96,12 @@ export function RegistrationSection() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </Button>
-              <Button variant="outline" size="lg" className="text-base px-8 py-3 bg-transparent" asChild>
+              {/* <Button variant="outline" size="lg" className="text-base px-8 py-3 bg-transparent" asChild>
                 <a href="https://drive.google.com/your-guide-link" target="_blank" rel="noopener noreferrer">
                   <Download className="mr-2 h-4 w-4" />
                   Download Registration Guide
                 </a>
-              </Button>
+              </Button> */}
             </div>
           </div>
 
@@ -124,7 +124,7 @@ export function RegistrationSection() {
                   <Phone className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-sm text-muted-foreground">To be announced</p>
+                    <p className="text-sm text-muted-foreground">+91 9538156995</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">

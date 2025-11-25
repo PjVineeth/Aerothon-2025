@@ -19,7 +19,7 @@ export function ImportantDatesSection() {
       title: "Last Date for Registration & Submission",
       description: (
         <>
-          Last Date for Team Registration, <a href="#" className="underline underline-offset-1 hover:text-primary">Presentation (PPT)</a>, <a href="#" className="underline underline-offset-1 hover:text-primary">Technical Report</a>.
+          Last Date for Team Registration, <a href="https://docs.google.com/document/d/13Uj3yYFpbKGCN7ylD9YoIPEu6Zk5no3IKkYRp1W8Kw4/edit?usp=sharing" className="underline underline-offset-1 hover:text-primary">Presentation (PPT)</a>, <a>Technical Report</a>.
           <br />
           The team leader has to register the team by submitting the ppt, report, recorded video of the presentation.
         </>
