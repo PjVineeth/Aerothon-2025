@@ -71,14 +71,14 @@ export function Footer() {
         <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © 2026 AEROTHON. Organized by HAL in collaboration with IIIT Dharwad.
+              © 2026 AEROTHON. Organized by IIIT Dharwad in collaboration with HAL.
             </p>
             <p className="text-sm text-muted-foreground mt-2 md:mt-0">
               Designed & Developed by
               {" "}
               <a
                 className="font-bold hover:text-primary transition-colors"
-                href="https://www.linkedin.com/in/pj-vineeth-kumar-88610927b/"
+                href="https://pjvineeth.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -46,7 +46,7 @@ export function RegistrationSection() {
     {
       question: "How does the submission process work?",
       answer:
-        "Submit your initial presentation (PPT), technical report, and recorded presentation by December 15, 2025. Detailed submission guidelines will be provided upon registration.",
+        "Submit your initial presentation (PPT), technical report, and recorded presentation by December 18, 2025. Detailed submission guidelines will be provided upon registration.",
     },
     {
       question: "What are the evaluation criteria?",

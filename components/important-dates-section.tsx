@@ -5,7 +5,7 @@ import { Calendar, Clock, Users, Trophy } from "lucide-react"
 export function ImportantDatesSection() {
   const timeline = [
     {
-      date: "November 24, 2025",
+      date: "December 1st, 2025",
       day: "Monday",
       title: "Hackathon Announcement & Registration Opens",
       description: "Official launch and problem statement release and registration opens",
@@ -14,8 +14,8 @@ export function ImportantDatesSection() {
       gradient: "from-orange-500 to-red-500",
     },
     {
-      date: "December 15, 2025",
-      day: "Monday",
+      date: "December 18, 2025",
+      day: "Thursday",
       title: "Last Date for Registration & Submission",
       description: (
         <>
